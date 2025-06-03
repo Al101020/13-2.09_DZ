@@ -38,13 +38,13 @@ function collapse() {
   divTextCollapse.after(copy);
 
   btnCollapse.addEventListener('click', () => {
-    if (copy.classList.contains('collapseCopy')) {      // console.log('есть класс collapseCopy');
+    if (copy.classList.contains('collapseCopy')) { // console.log('есть класс collapseCopy');
       copy.classList.remove('collapseCopy');// удаляем класс collapseCopy
       copy.classList.add('noCollapseCopy');// добовляем класс noCollapseCopy
-    } else if (copy.classList.contains('noCollapseCopy')) {      // console.log('есть класс noCollapseCopy');
+    } else if (copy.classList.contains('noCollapseCopy')) { // console.log('есть класс noCollapseCopy');
       copy.classList.remove('noCollapseCopy');// удаляем класс noCollapseCopy
       copy.classList.add('collapseCopy');// добовляем класс collapseCopy
-    } else {      // console.log('НЕТ классов ни collapseCopy, ни noCollapseCopy');
+    } else { // console.log('НЕТ классов ни collapseCopy, ни noCollapseCopy');
       copy.classList.add('collapseCopy');
     }
   });
