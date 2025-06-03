@@ -48,3 +48,11 @@ craft beer labore wes anderson cred nesciunt sapiente ea proident.
 
 Copy
 ---
+Загрузка на Git
+npm run lint -- --fix
+
+git status
+git add -A
+git commit -m "commit-1"
+git push
+---
